@@ -1,0 +1,17 @@
+{
+  "name": "pg-restify-monad",
+  "version": "0.0.1",
+  "description": "Node.js app exposes PostgreSQL via REST API and protects all routes with access token.",
+  "engines": {
+    "node": "5.10.1"
+  },
+  "dependencies": {
+    "pg-restify": "^0.3.1",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "nodemon": "^1.9.1"
+  },
+  "license": "MIT"
+}

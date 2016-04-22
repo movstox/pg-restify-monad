@@ -1,0 +1,25 @@
+{
+  "name": "pg-restify-monad",
+  "description": "Node.js app exposes PostgreSQL via REST API and protects all routes with access token.",
+  "repository": "https://github.com/movstox/pg-restify-monad",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "api", "static"],
+  "env": {
+    "ACCESS_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "DATABASE_URL": {
+      "description": "Postgresql db url",
+      "value": ""
+    },
+    "SKIP_AUTH": {
+      "description": "Set to true if you want public access enabled",
+      "value": "false"
+    }
+  },
+  "addons": [
+    "logentries:le_tryit",
+    "airbrake:free_heroku"
+  ]
+}
